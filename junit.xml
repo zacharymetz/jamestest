@@ -1,0 +1,263 @@
+<testsuites name="jest tests" tests="7" failures="7" time="1.519">
+  <testsuite name="undefined" errors="0" failures="7" skipped="0" timestamp="2021-01-03T05:04:37" time="1.519" tests="7">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.024">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:12:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:13:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+    <testcase classname=" click on color 1 changes the canvas color" name=" click on color 1 changes the canvas color" time="0.003">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:26:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:27:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+    <testcase classname=" click on color 2 changes the canvas color" name=" click on color 2 changes the canvas color" time="0.003">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:42:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:43:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+    <testcase classname=" click on color 3 changes the canvas color" name=" click on color 3 changes the canvas color" time="0.003">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:58:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:59:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+    <testcase classname=" click on color 4 changes the canvas color" name=" click on color 4 changes the canvas color" time="0.002">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:74:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:75:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+    <testcase classname=" click on color 5 changes the canvas color" name=" click on color 5 changes the canvas color" time="0.002">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:90:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:91:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+    <testcase classname=" click on color 6 changes the canvas color" name=" click on color 6 changes the canvas color" time="0.003">
+      <failure>ReferenceError: selectedColor is not defined
+    at ColorPicker.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/components/colorPicker/index.js:20:161)
+    at finishClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17160:31)
+    at updateClassComponent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:17110:24)
+    at beginWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:18620:16)
+    at HTMLUnknownElement.callCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:188:14)
+    at invokeEventListeners (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:237:16)
+    at invokeGuardedCallback (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:292:31)
+    at beginWork$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:23203:7)
+    at performUnitOfWork (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22157:12)
+    at workLoopSync (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:22130:22)
+    at performSyncWorkOnRoot (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21756:9)
+    at scheduleUpdateOnFiber (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21188:7)
+    at updateContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24373:3)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24758:7
+    at unbatchedUpdates (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21903:12)
+    at legacyRenderSubtreeIntoContainer (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24757:5)
+    at Object.render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:24840:10)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:86:25
+    at batchedUpdates$1 (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at render (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/@testing-library/react/dist/index.js:82:26)
+    at renderApp (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:106:46)
+    at Object.&lt;anonymous&gt; (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/src/App.test.js:107:3)
+    at Object.asyncFn (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /Users/zacharymetz/Desktop/50aa26cd-1731-4de8-9545-c8244c79b270/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (node:internal/process/task_queues:93:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
